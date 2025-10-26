@@ -1,0 +1,97 @@
+/* ---------- General Styles ---------- */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4a90e2, #007bff);
+  color: #333;
+}
+
+/* ---------- Container ---------- */
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* ---------- Input Fields ---------- */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* ---------- Buttons ---------- */
+button, input[type="submit"] {
+  width: 100%;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background: linear-gradient(90deg, #0056b3, #00a6ff);
+}
+
+/* ---------- Links ---------- */
+a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #007bff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Profile Section ---------- */
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.logout {
+  background: #ff4d4d;
+  margin-top: 20px;
+}
+
+.logout:hover {
+  background: #e60000;
+}
